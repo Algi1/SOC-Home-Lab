@@ -7,7 +7,7 @@ Welcome to **SOC Home Lab (SHL)**, a modular and evolving open-source project ai
 ## 🌐 **Project Overview**
 
 
-![SOC Home Lab Diagram](architecture/SOC-Home-Lab-v1.excalidraw.png)
+![SOC Home Lab Diagram](architecture/SOC-Home-Lab-v1.png)
 
 The **SOC Home Lab (SHL)** serves as a starting point for creating and managing SOC environments. It integrates essential tools for log ingestion, processing, storage, and visualisation, providing a platform for learning, experimenting, and growing.
 
