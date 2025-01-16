@@ -74,25 +74,18 @@ Follow these steps to set up and run the SOC Home Lab (SHL):
     docker compose -p soclab -f cribl/docker-compose.yml -f elasticsearch/docker-compose.yml -f kibana/docker-compose.yml up -d
     ```
     
-3. Access the services:
+3. Access the Cribl service:
     
     - **Cribl**: `http://localhost:9000`
-    - **Elasticsearch**: `http://localhost:9200`
-    - **Kibana**: `http://localhost:5601`
 
-4. Start the lab environment:
+3. Access the Kibana service:
     
-    ```bash
-    docker-compose up -d
-    ```
-    
-5. Access the services:
-    
-    - **Cribl**: `http://localhost:9000`
-    - **Elasticsearch**: `http://localhost:9200`
     - **Kibana**: `http://localhost:5601`
+  
+3. Access the Elasticsearch service:
+   
+    - **Elasticsearch**: `http://localhost:9200`
 
----
 
 ## 🤝 **Contributing**
 
