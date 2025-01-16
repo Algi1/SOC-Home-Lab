@@ -79,9 +79,7 @@ Follow these steps to set up and run the SOC Home Lab (SHL):
     - **Cribl**: `http://localhost:9000`
     - **Elasticsearch**: `http://localhost:9200`
     - **Kibana**: `http://localhost:5601`
-    - **Cribl**: `http://localhost:9000`
-    - **Elasticsearch**: `http://localhost:9200`
-    - **Kibana**: `http://localhost:5601`
+
 4. Start the lab environment:
     
     ```bash
