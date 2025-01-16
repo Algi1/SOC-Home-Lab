@@ -1,0 +1,15 @@
+services:
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.17.0
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200  # Point Kibana to the Elasticsearch container
+      - xpack.security.enabled=false
+    ports:
+      - "5601:5601"
+    volumes:
+      - kibanadata:/usr/share/kibana/data  # Mount the persistent volume for Kibana data
+
+volumes:
+  kibanadata:  # Create a named volume for Kibana data
+    driver: local
